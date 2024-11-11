@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .navbar-style{
-    @apply p-3 bg-black w-full sticky top-0 left-0 z-50;
+    @apply p-3 bg-black w-full text-center sticky top-0 left-0 z-50;
 }
 .navbar-link-style{
     @apply m-5 text-xs; color: lightblue;

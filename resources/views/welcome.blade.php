@@ -15,8 +15,8 @@
              <div id="search-area"><searchbar /></div>
 
             <!-- Content -->
-            <main class="border border-black rounded-xl flex-grow p-8 pt-5 flex items-center justify-center">
-                <table class="table-auto border-collapse border border-slate-500 w-full">
+            <main class="border border-black rounded-xl flex-grow p-2 pt-5 flex items-center justify-center">
+                <table class="table-auto border-collapse border border-slate-500 sm: w-20 md:w-50 lg:w-80 xl:w-full">
                     <!-- column headers -->
                     <thead>
                         <tr class="bg-gray-200">
