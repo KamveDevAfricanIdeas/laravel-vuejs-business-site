@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-style{
+    @apply p-3 bg-black w-full sticky top-0 left-0 z-50;
+}
+.navbar-link-style{
+    @apply m-5 text-xs; color: lightblue;
+}
+.navbar-link-style:hover{
+    @apply m-5; color: white;
+}
+.footer-style{
+    @apply bg-black text-white text-center p-4 mt-auto;
+}
+.footer-link-style{
+    @apply m-5 text-sm; color:lightblue; 
+}
+.footer-link-style:hover{
+    @apply m-5; color:white; 
+}
+.searchbar-style{
+    @apply p-1 w-full border-2 border-indigo-100 rounded;
+}
